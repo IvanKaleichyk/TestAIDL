@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun Context.showToast(test: String) {
+    private fun Context.showToast(test: String) {
         Toast.makeText(this, test, Toast.LENGTH_SHORT).show()
     }
 
