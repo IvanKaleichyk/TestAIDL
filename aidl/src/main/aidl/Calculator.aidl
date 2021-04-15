@@ -3,5 +3,5 @@
 //import com.koleychik.aidl.Sum;
 
 interface Calculator{
-    Sum sum(int first, int second);
+    oneway void sum(int first, int second, AsyncCallback callback);
 }
