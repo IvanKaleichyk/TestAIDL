@@ -1,3 +1,7 @@
+//package com.koleychik.aidl;
+
+//import com.koleychik.aidl.Sum;
+
 interface Calculator{
-    int sum(int first, int second);
+    Sum sum(int first, int second);
 }

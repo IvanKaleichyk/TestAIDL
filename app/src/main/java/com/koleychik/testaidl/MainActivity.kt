@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
             val sum = calculator?.sum(
                 edt1.text.toString().trim().toInt(),
                 edt2.text.toString().trim().toInt()
-            ) ?: applicationContext.showToast("calculator = null")
+            )?.result ?: applicationContext.showToast("calculator = null")
             applicationContext.showToast("sum = $sum")
         }
     }
